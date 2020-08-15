@@ -1,8 +1,7 @@
 import React from "react";
 import GoogleLogin from "react-google-login";
-import { CLIENT_ID, URL_REDIRECT } from "../const";
 
-const LoginGoogle = ({ clientId = CLIENT_ID, redirectTo = URL_REDIRECT }) => {
+const LoginGoogle = ({ clientId, redirectTo }) => {
   const responseGoogle = (data) => {
     if (!data) throw Error();
     const { tokenId } = data;
