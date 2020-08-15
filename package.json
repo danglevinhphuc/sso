@@ -1,6 +1,6 @@
 {
   "name": "login-sso",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Login sso with google",
   "author": "Phuc Dang",
   "main": "index.js",
