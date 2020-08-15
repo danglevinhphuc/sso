@@ -32,18 +32,3 @@ var LoginGoogle = function LoginGoogle(_ref) {
 
 var _default = LoginGoogle;
 exports["default"] = _default;
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-Object.defineProperty(exports, "LoginGoogle", {
-  enumerable: true,
-  get: function get() {
-    return _LoginGoogle["default"];
-  }
-});
-
-var _LoginGoogle = _interopRequireDefault(require("./components/LoginGoogle"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
