@@ -1,7 +1,7 @@
 import React from "react";
 import GoogleLogin from "react-google-login";
 
-const LoginGoogle = ({ clientId, redirectTo }) => {
+const Index = ({ clientId, redirectTo }) => {
   const responseGoogle = (data) => {
     if (!data) throw Error();
     const { tokenId } = data;
@@ -21,4 +21,4 @@ const LoginGoogle = ({ clientId, redirectTo }) => {
     </center>
   );
 };
-export default LoginGoogle;
+export default Index;

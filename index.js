@@ -11,7 +11,7 @@ var _reactGoogleLogin = _interopRequireDefault(require("react-google-login"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var LoginGoogle = function LoginGoogle(_ref) {
+var Index = function Index(_ref) {
   var clientId = _ref.clientId,
       redirectTo = _ref.redirectTo;
 
@@ -30,5 +30,5 @@ var LoginGoogle = function LoginGoogle(_ref) {
   })));
 };
 
-var _default = LoginGoogle;
+var _default = Index;
 exports["default"] = _default;
