@@ -9,15 +9,11 @@ var _react = _interopRequireDefault(require("react"));
 
 var _reactGoogleLogin = _interopRequireDefault(require("react-google-login"));
 
-var _const = require("../const");
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 var LoginGoogle = function LoginGoogle(_ref) {
-  var _ref$clientId = _ref.clientId,
-      clientId = _ref$clientId === void 0 ? _const.CLIENT_ID : _ref$clientId,
-      _ref$redirectTo = _ref.redirectTo,
-      redirectTo = _ref$redirectTo === void 0 ? _const.URL_REDIRECT : _ref$redirectTo;
+  var clientId = _ref.clientId,
+      redirectTo = _ref.redirectTo;
 
   var responseGoogle = function responseGoogle(data) {
     if (!data) throw Error();
@@ -36,16 +32,6 @@ var LoginGoogle = function LoginGoogle(_ref) {
 
 var _default = LoginGoogle;
 exports["default"] = _default;
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.URL_REDIRECT = exports.CLIENT_ID = void 0;
-var CLIENT_ID = "";
-exports.CLIENT_ID = CLIENT_ID;
-var URL_REDIRECT = "";
-exports.URL_REDIRECT = URL_REDIRECT;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
